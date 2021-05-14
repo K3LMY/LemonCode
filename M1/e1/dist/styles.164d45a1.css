@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 50px;
+  border: 1px solid black;
+  color: grey;
+}
+
+.box {
+  padding: 15px;
+  border: 1px solid black;
+}
+
+.base-color {
+  background-color: green;
+  color: white;
+}
+
+.darken-1 {
+  background-color: #006700;
+}
+
+.lighten-1 {
+  background-color: #009a00;
+}
+
+.darken-2 {
+  background-color: #004d00;
+}
+
+.lighten-2 {
+  background-color: #00b300;
+}
+
+.darken-3 {
+  background-color: #003400;
+}
+
+.lighten-3 {
+  background-color: #00cd00;
+}
+
+.darken-4 {
+  background-color: #001a00;
+}
+
+.lighten-4 {
+  background-color: #00e600;
+}
+
+/*# sourceMappingURL=/styles.164d45a1.css.map */

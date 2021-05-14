@@ -1,0 +1,60 @@
+
+
+body{
+
+font-family: 'Krub', sans-serif;
+
+}
+
+
+.container{
+
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    width: 50vh;
+   
+
+    display: flex;
+    flex-direction: column;
+
+}
+.imagen{
+    content: url(../e4/img/barco.jpeg); 
+   
+}
+
+.texto{
+    padding: 0px 15px 15px 15px;
+}
+
+
+.button {
+	color: #fff !important;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #ed3330;
+	padding: 10px 60px;
+	border-radius: 5px;
+	display: inline-block;
+	border: none;
+	transition: all 0.4s ease 0s;
+}
+
+.button:hover {
+	background: #434343;
+	letter-spacing: 1px;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.4s ease 0s;
+}
+
+.fecha{
+    padding: 10px;
+    text-align: center;
+
+}
+.today{
+    line-height: normal;
+    color: green;
+}

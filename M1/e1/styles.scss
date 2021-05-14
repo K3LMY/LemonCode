@@ -1,0 +1,44 @@
+
+$base-color: green;
+$darken-color-1: darken($base-color, 10%); 
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    padding: 50px;
+    border: 1px solid black;
+    color:grey;
+}
+
+.box{
+    padding: 15px;
+    border: 1px solid black;
+    
+}
+
+.base-color{
+    background-color:$base-color ;
+    color: white;
+}
+
+
+@for $i from 1 through 4 {
+
+    .darken-#{$i}{
+        
+        background-color: darken($base-color, $i * 5%);
+            
+    }
+
+    .lighten-#{$i}{
+
+        background-color: lighten($base-color, $i * 5%);
+        
+    }
+
+     
+}
